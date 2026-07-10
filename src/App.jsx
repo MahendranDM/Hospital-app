@@ -3,7 +3,8 @@ import "./App.css";
 
 import AddPatient from "./components/AddPatient";
 import SearchPatient from "./components/SearchPatient";
-import DeletePatient from "./components/DeletePatient";
+import DischargePatient from "./components/DischargePatient";
+import ViewPatient from "./components/ViewPatient";
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
 
         <Route path="/add" element={<AddPatient/>} />
         <Route path="/search" element={<SearchPatient />} />
-        <Route path="/delete" element={<DeletePatient />} />
+        <Route path="/discharge" element={<DischargePatient />} />
+        <Route path="/" element={<ViewPatient />} />
       </Routes>
     </BrowserRouter>
   );

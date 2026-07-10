@@ -47,8 +47,8 @@ const NavBar = () => {
             </li>
 
             <li className="nav-item mx-3">
-              <Link className="nav-link text-white fw-bold fs-5" to="/delete">
-                Delete Patient
+              <Link className="nav-link text-white fw-bold fs-5" to="/discharge">
+                Discharge Patient
               </Link>
             </li>
 

@@ -15,7 +15,7 @@ const DeletePatient = () => {
 
                                 <input type="text" className="form-control" />
 
-                                <button className="btn btn-danger mt-3">Delete</button>
+                                <button className="btn btn-danger mt-3">Discharge</button>
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6"></div>
